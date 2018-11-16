@@ -1,0 +1,145 @@
+.test1 {
+    margin-top: 4%;
+}
+.test1 h1 {
+    font-size: 35px;
+    font-weight: 600;
+    color: #fa9a04;
+    font-family: 'Roboto', sans-serif;
+}
+.ra-tast1 {
+    display: block;
+    background-image: url(../1a.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    text-align: center;
+    color: #fff;
+    padding: 8% 18%;
+    background-attachment: fixed;
+    background-size: cover !important;
+    position: relative;
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+.ra-tast1 h1 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin: 0px;
+    font-size: 43px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-bottom: 5%;
+}
+.ra-tast1 img {
+    margin: 0px auto;
+    border-radius: 50%;
+    width: 110px !important;
+    border: 5px solid #ccc;
+}
+.reales2 {
+    bottom: -22% !important;
+}
+.reales2 {
+    bottom: -22% !important;
+}
+.ra-tast1 p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    margin: 0;
+    line-height: 32px;
+    margin-top: 3%;
+    color: #fff;
+}
+.ra-tast1 h6 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    margin: 0;
+    color: #ccc;
+    font-weight: 600;
+}
+
+
+
+
+@media only screen and (min-width:320px)and (max-width:480px){
+.test1 {
+    text-align: center;
+}	
+.ra-tast1 h1 {
+    font-size: 35px;
+}
+.ra-tast1 p {
+    font-size: 15px;	
+}
+.reales2 {
+    bottom: -10% !important;
+}
+}
+@media only screen and (min-width:360px)and (max-width:640px){
+.test1 h1 {
+    text-align: center;
+}
+.ra-tast1 h1 {
+    font-size: 30px;
+}
+.ra-tast1 h1 {
+    font-size: 30px;
+}
+.reales2 {
+    bottom: -11% !important;
+}
+.ra-tast1 p {
+    font-size: 15px;
+}
+}
+@media only screen and (min-width:568px)and (max-width:570px)
+{
+.test1 h1{
+    text-align: center;
+}
+.reales2 {
+    bottom: -22% !important;
+}
+}
+@media only screen and (min-width : 640px) and (max-width :767px)
+ {
+.test1 h1 {
+    text-align: center;
+}
+.ra-tast1 h1 {
+    font-size: 30px;
+}
+.ra-tast1 h1 {
+    font-size: 30px;
+}
+.reales2 {
+    bottom: -25% !important;
+}
+.ra-tast1 p {
+    font-size: 15px;
+}
+}
+@media only screen and (min-width:640px)and (max-width:642px){
+.reales2 {
+    bottom: -25% !important;
+}
+}
+@media only screen and (min-width : 768px) and (max-width :1000px) {
+.test1 {
+    text-align: center;
+}
+}
+@media only screen and (min-width : 1000px) and (max-width :1200px) {
+.test1 {
+    text-align: center;
+}	
+}
+@media only screen and (min-width : 1200px) and (max-width :1300px) {
+.test1 {
+    text-align: center;
+}
+}
+@media only screen and (min-width : 1366px) and (max-width :1368px) {
+.test1 {
+    text-align: center;
+}
+}
