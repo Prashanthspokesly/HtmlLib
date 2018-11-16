@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/testcss.css">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+<title>Testimonials</title>
+</head>
+<body>
+
+<!--  Testimonial 2  -->
+<h2 class="testh1">Testimonial 2</h2>
+<div class="testimonial-2">
+	<div class="container-fluid">
+	
+		<div class="row">
+		<h1 class="t2text">Testimonials</h1>
+		<div class="content-items" data-ride="carousel">
+			<div class="t2item">
+				<img class="t2img" src="images/t1.jpg" alt="Logo Footer">
+				<p class="t2-p">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget porttitor quam.
+					Nam ornare ipsum mauris, sed aliquet nisl tempus eu.Interdum et malesuada fames ac ante ipsum primis in faucibus.
+					Aenean laoreet viverra mollis. 
+				</p>
+				<h3 class="t2-title">
+					Tyler Bryant<br>
+					<small>Digital Customer</small>
+				</h3>
+			</div>
+			<div class="t2item">
+				<img class="t2img" src="images/t2.jpg" alt="Logo Footer">
+				<p class="t2-p">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget porttitor quam.
+					Nam ornare ipsum mauris, sed aliquet nisl tempus eu.Interdum et malesuada fames ac ante ipsum primis in faucibus.
+					Aenean laoreet viverra mollis. 
+				</p>
+				<h3 class="t2-title">
+					Kathleen Mills<br>
+					<small>Digital Customer</small>
+				</h3>
+			</div>
+			<div class="t2item">
+				<img class="t2img" src="images/t3.jpg" alt="Logo Footer">
+				<p class="t2-p">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget porttitor quam.
+					Nam ornare ipsum mauris, sed aliquet nisl tempus eu.Interdum et malesuada fames ac ante ipsum primis in faucibus.
+					Aenean laoreet viverra mollis. 
+				</p>
+				<h3 class="t2-title">
+					Bruce<br>
+					<small>Digital Customer</small>
+				</h3>
+			</div>
+			<a class="prev" onclick="plusSlides(-1)">❮</a>
+			<a class="next" onclick="plusSlides(1)">❯</a>
+		</div>
+		<div class="dot-container">
+			<span class="dot" onclick="currentSlide(1)"></span> 
+			<span class="dot" onclick="currentSlide(2)"></span> 
+			<span class="dot" onclick="currentSlide(3)"></span> 
+		</div>
+		</div>
+		
+	</div>
+</div>
+
+
+</body>
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("t2item");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</html>
